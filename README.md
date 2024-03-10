@@ -18,6 +18,10 @@ Item-Level Encryption: To further enhance security, every item stored within the
 
 
 
+![image](https://github.com/MJBpro/SSD-MiniProject/assets/104771571/33d375c8-f428-44e1-9b8f-862c921aedda)
+
+
+
 
 
 
