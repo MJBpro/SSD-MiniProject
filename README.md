@@ -10,15 +10,23 @@ When the user then tries to login we will generate this encrypted key again and 
 
 When the user is authenticated the vault will be returned to the user. Inside the vault is stored an array with the saved passwords. The passwords will be encrypted using the AES-GCM and PBKDF2 key derivation where we will utilize the master password and the vault key for encryption and decryption.
 
-
-
-
-
-![image](https://github.com/MJBpro/SSD-MiniProject/assets/104771571/33d375c8-f428-44e1-9b8f-862c921aedda)
-
+![Gr](https://github.com/MJBpro/SSD-MiniProject/assets/55191533/a03c75a7-4ccc-4949-91c1-108c12b80fb6)
 
 
 
 
 
+## Preview
+
+<img width="1396" alt="Screenshot 2024-03-21 at 15 59 13" src="https://github.com/MJBpro/SSD-MiniProject/assets/55191533/fed8c9ab-4e1b-4ba0-bd50-de5c999ee93e">
+<img width="1470" alt="Screenshot 2024-03-21 at 15 58 56" src="https://github.com/MJBpro/SSD-MiniProject/assets/55191533/7f61a821-3c28-4d3e-92c8-b5f5e06281f0">
+<img width="1564" alt="Screenshot 2024-03-21 at 15 58 49" src="https://github.com/MJBpro/SSD-MiniProject/assets/55191533/842d3805-b5e7-4734-8c75-8d5c755f7fda">
+<img width="1546" alt="Screenshot 2024-03-21 at 15 56 38" src="https://github.com/MJBpro/SSD-MiniProject/assets/55191533/b091fd89-b211-4912-9ef3-38d598644c85">
+
+
+
+## SETUP 
+To run the password manager you can clone this repository and do the following: 
+1. npm install
+2. npm run dev
 
