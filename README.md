@@ -30,4 +30,14 @@ When the user is authenticated the vault will be returned to the user. Inside th
 To run the password manager you can clone this repository and do the following: 
 1. npm install
 2. npm run dev
+3. open webbrowser localhost
+
+
+## Discussion 
+The application is setup to run in localhost which should have been a desktop application intead. 
+We use a local Database to store the credentials and info for the passwords (url, username, password) where we propably should have encrypted the other values too (especially email) - in case a attacker got access to the database. 
+We did'nt get to add proper input validations - this could lead to weak passwords and thereby easier to crach the encryptions.
+We store the encrytions salt and Iv along with encryption which seemed wrong but didnt now where else to store it. It still helps to prevent the use of rainbowtables to try to crack the encrytiops though.
+We could have used some more iterations when generating the hashed keys, but we thought it was enough.
+Instead of storeing the vaults as a key and array of (url, username, password) we should probably have encrypted the whole vault together and saved the vault as just a key. 
 
